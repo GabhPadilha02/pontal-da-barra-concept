@@ -1,24 +1,25 @@
-import mdaFindUs from "../../assets/mdaFindUs.png"
+import mdaFindUs from "../../assets/encontrenos.svg"
 import style from "./style.module.scss"
-import goldenLines from "../../assets/linhasdouradas.svg"
-import map from "../../assets/mapa.svg"
-import logo from "../../assets/logo2.svg"
+import marca from "../../assets/marcadagua.svg"
+import map from "../../assets/map.svg"
+import logo from "../../assets/Logo.svg"
 import { MapPin } from "phosphor-react"
 
 export function FindUs() {
   return (
     <div className={style.findUsContainer} id="findUs">
       <div className={style.designPage}>
-        <img src={mdaFindUs} className={style.mdaFindUs} alt="Marca D'Água" height={60}/>
-        <img src={goldenLines} className={style.goldenLines} alt="Detalhes da Página" />
+        <img src={marca} alt="" height={60} className={style.marca}/>
+        <img src={mdaFindUs} className={style.mdaFindUs} alt="Marca D'Água" height={40}/>
+        
       </div>
       <div className={style.centralize}>
-        <a href="https://www.google.com/maps/place/Ocean+Castle+Home+Club+Itapo%C3%A1/@-26.1253735,-48.5993451,15z/data=!4m2!3m1!1s0x0:0x224d64dca56d3281?sa=X&ved=2ahUKEwjAnN-2hsD7AhWDqJUCHZIkAeQQ_BJ6BAhwEAg" target="_blank"><img src={map} alt="Mapa" className={style.map}/></a>
+        <a href="https://goo.gl/maps/QkN7yvMpCh9nfiay8" target="_blank"><img src={map} alt="Mapa" className={style.map}/></a>
         <div className={style.line}></div>
         <img src={logo} alt="Logo" className={style.logo}/>
         <div className={style.textLocation}>
-          <MapPin size={30}/>
-          <span>Av. Brasil, 3414 - Itapoá/SC</span>
+          <MapPin size={30} weight={"thin"}/>
+          <span>Rua Jacarezinho, 2437- Itapoá/SC</span>
         </div>  
       </div>
       

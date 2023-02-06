@@ -5,12 +5,12 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  filter: drop-shadow(0px 0px 10px rgb(73, 72, 72));
+  filter: drop-shadow(0px 0px 4px #000);
 
   a {
 
     svg {
-      color: var(--white);
+      color: #fff;
     }
 
     transition: all 0.3s;
@@ -21,16 +21,16 @@
   }
 }
 
-
-.container {
-  position: absolute;
-  width: 100%;
-  background: linear-gradient(90deg, rgba(34, 57, 70, 0.75) 610.34%, #476082 641.07%, #8085A5 682.74%, #FFFFFF 705.65%, #F3F5F7 710.33%);
+.logo{
+  filter: drop-shadow(0px 0px 5px rgb(0, 0, 0));
+  @media (max-width: 700px) {
+    max-width: 30vw;
+  }
 }
 
-.logo {
-  height: 80px;
-  filter: drop-shadow(0px 0px 1px rgba(17, 17, 17, 0.8));
+.container{
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .headerContainer {
@@ -48,11 +48,12 @@
   padding-right: 5vw;
   display: flex;
   gap: 3rem;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   align-items: center;
   list-style: none;
-  color: var(--gray-200);
+  color: #fff;
   font-weight: 700;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, .7);
 
   a {
     transition: opacity 0.2s;
@@ -116,10 +117,10 @@
     position: absolute;
     align-items: center;
     width: 100vw;
-    height: 100vh;
-    background-color: var(--blue-800);
-    padding: 20px;
-    top: 80px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px;
+    top: 45px;
     left: -110%;
     transition: all .5s;
   }

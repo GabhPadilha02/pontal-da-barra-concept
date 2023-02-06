@@ -1,12 +1,18 @@
 .findUsContainer{
   background-image: url(../../assets/textura.png);
-  height: 100vh;
+  background-color: #000;
+  height: 100%;
 
   .designPage{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 1rem 1rem 0 0;
+    padding-top: 40px;
+
+    @media (max-width: 700px) {
+      justify-content: end;
+    }
+    
   }
 
   .centralize{
@@ -14,13 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    .line{
-      margin: 2rem 0;
-      width: 60vw;
-      height: 1px;
-      background-color: var(--orange-500);
-    }
+    gap: 2rem;
 
     a{
       transition: opacity 0.3s ease-in-out;
@@ -29,23 +29,28 @@
       opacity: 70%;
     }
     .map{
-      margin-top: 2rem;
+      margin-top: 1rem;
       filter: drop-shadow(0px 0px 3px rgb(0, 0, 0));
       width: 60vw;
+      @media (max-width: 700px) {
+        width: 90vw;
+      }
+
     }
 
     .logo{
-      width: 20vw;
+      width: 37vw;
+      @media (max-width: 700px) {
+        width: 60vw;
+      }
     }
 
-    .mdaFindUs{
-      height: 60px;
-    }
+    
 
     .textLocation{
       color: var(--white);
       font-size: 1rem;
-      font-weight: bold;
+      font-weight: 200;
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -57,10 +62,20 @@
 }
 
 @media (max-width: 800px) {
-  .mdaFindUs{
-    height: 40px;
-  }
+    .marca{
+      display: none;
+    }
+    .mdaFindUs{
+      height: 40px;
+    }
+  
   .findUsContainer{
-    height: auto;
+    height: 100vh;
   }
+
+  .map{
+    padding-top: 20vh;
+  }
+
+  
 }

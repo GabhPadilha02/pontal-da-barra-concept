@@ -1,6 +1,6 @@
 .swiper{
-  margin: 1vw;
-  width: 70vw;
+  margin: 0vw;
+  width: 80vw;
 }
 
 
@@ -10,27 +10,23 @@
 }
 .swiper-pagination-bullet-active{
   background-color: var(--gray-100);
-  border: solid 0.18rem var(--blue-800);
+  border: solid 0.18rem #614d0c;
 }
 .swiper-button-prev{
-  color: var(--blue-800);
+  color: #614d0c;
   
 }
 .swiper-button-next{
-  color: var(--blue-800); 
+  color: #614d0c; 
   
 }
 
 @media (max-width: 767px) {
   .swiper{
-    width: 90vw;
+    width: 110vw;
     margin: 0 -7rem;
     max-width: 100vw;
+    padding: 1rem;
   }
-  .swiper-button-prev{
-    color: var(--blue-800);
-  }
-  .swiper-button-next{
-    color: var(--blue-800); 
-  }
+  
 }

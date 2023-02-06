@@ -3,7 +3,8 @@ import { useState } from "react"
 import { useGetGallerysQuery } from "../../graphql/generated"
 import { Header } from "../Header"
 import './style.css'
-import mdaMonthlyGallerys from "../../assets/mdaMonthlyGallerys.svg"
+import mdaMonthlyGallerys from "../../assets/acompanhe.svg"
+import marca from "../../assets/marcadagua.svg"
 
 export function MonthlGallery() {
     const [model, setModel] = useState(false)
@@ -17,7 +18,10 @@ export function MonthlGallery() {
 
     return (
         <div className="container">
-            <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="Marca D'Água" height={60} />
+            <div className={"mdaContainer"}>
+                <img src={mdaMonthlyGallerys} className="mdaMonthlyGallerys" alt="Marca D'Água" height={40} />
+            </div>
+            
             <div className={model ? "model open" : "model"}>
                 <img src={tempImgSrc} alt="Model" />
                 <X onClick={() => setModel(false)} />

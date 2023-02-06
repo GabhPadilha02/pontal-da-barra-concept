@@ -17,8 +17,11 @@
 }
 
 :root {
-  --orange-500: #BF8A30;
-  --orange-300: #bf8b30bb;
+  --brown-300:#E3AE52;
+  --brown-400:#B48954;
+  --brown-200:#D5C19D;
+  --blue-100: #ADCAC6;
+  --blue-300: #5D847E;
   --blue-700: #223946;
   --blue-800: #1E2B33;
   --gray-500: #7C7C7C;
@@ -31,7 +34,6 @@
 body{
   font: 400 1rem "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #1E2B33;
 }
 
 a {

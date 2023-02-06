@@ -1,11 +1,11 @@
 .container{
   height: 100vh;
   width: 100%;
-  background-image: url('../../assets/ocean3.jpg');
+  background-image: url('../../assets/background.jpeg');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  background-size: 100vw 100hw cover;
+  background-size: cover;
 
   
 
@@ -14,7 +14,7 @@
     align-items: center;
     position: relative;
     top: 70vh;
-    justify-content: space-between;
+    justify-content: end;
   }
 
 }
@@ -26,3 +26,5 @@
     }
   }
 }
+
+//Header

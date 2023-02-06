@@ -5,7 +5,7 @@ export function FollowTheConstructionButton() {
   return (
     <a href="/galeriasmensais">
       <button className={style.followTheConstructionButton}>
-        ACOMPANHE A CONSTRUÇÃO
+        ACOMPANHE A OBRA
         <CaretRight size={20} weight={"bold"} />
       </button>
     </a>

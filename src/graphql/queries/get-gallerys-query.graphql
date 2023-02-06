@@ -1,13 +1,13 @@
 query GetGallerys {
-  galeriasMensais(orderBy: dataDaGaleria_DESC, last: 40) {
-    atualizacoesDoMes
-    createdAt
-    id
+  galeriasMensais {
     mesTitulo
     fotos {
       id
       url
     }
+    createdAt
+    atualizacoesDoMes
     dataDaGaleria
+    id
   }
 }
