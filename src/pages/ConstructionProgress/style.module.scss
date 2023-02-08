@@ -1,5 +1,5 @@
 .container {
-  background-color: var(--blue-700);
+  background-color: rgb(21, 21, 21);
   background-image: url("../../assets/textura.png");
   min-height: 100vh;
 
@@ -10,6 +10,11 @@
     justify-content: center;
     margin-top: 1rem;
     gap: 4rem;
+  }
+
+  .alignMda{
+    display: flex;
+    justify-content: space-between;
   }
 
   .mdaProgressPage {
@@ -29,7 +34,7 @@
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     padding: 10px;
-    color: var(--gray-500);
+    color: #000;
 
     .progressionBarContainer{
       margin: 10px;
@@ -45,7 +50,7 @@
 
       span{
         font-size: 0.875rem;
-        font-weight: 700;
+        font-weight: 300;
       }
     }
 
@@ -56,7 +61,7 @@
 
       span{
         font-size: 0.83rem;
-        font-weight: 600;
+        font-weight: 300;
       }
     }
 
@@ -70,14 +75,15 @@
     .progression{
       height: 100%;
       border-radius: 99999px;
-      background-color: var(--blue-700);
+      background-color: #c8a83f;
     }
     
     
   }
 
   .infoToBuilding{
-    background-color: var(--blue-800);
+    padding: 0 40px;
+    background-color: #000;
     background-image: url("../../assets/textura.png");
     width: 400px;
     height: 450px;
@@ -89,11 +95,17 @@
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 
+    .logo{
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      padding-top: 50px;
+    }
+
     .pictureFrame{
       width: 380px;
       height: 240px;
       margin-top: 10px;
-      background-color: var(--white);
       border-radius: 30px 30px 0 0;
       display: flex;
       flex-direction: column;
@@ -101,6 +113,10 @@
       align-items: center;
       color: var(--gray-500);
       font-weight: 700;
+
+      .buildingPicture{
+        border: solid 10px #fff;
+      }
 
       span{
         margin-top: 5px;

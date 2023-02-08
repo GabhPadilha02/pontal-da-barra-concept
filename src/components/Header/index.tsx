@@ -18,11 +18,11 @@ export function Header() {
           <li><a href="#about">SOBRE</a></li>
           <li><a href="#gallery">GALERIA</a></li>
           <li><a href="#findUs">ENCONTRE-NOS</a></li>
-          {/* <li><a href="/progresso">PROGRESSÃO DA OBRA</a></li> */}
+          <li><a href="/progresso">PROGRESSÃO DA OBRA</a></li>
         </ul>
         <ul className={style.iconsLinks}>
            <li><a href="https://www.instagram.com/pontal_da_barra_itapoa/" target="_blank"><InstagramLogo size={24} weight={"regular"} /></a></li>
-           {/* <li><a href="https://wa.me/554734424541" target="_blank"><WhatsappLogo size={24} weight={"regular"} /></a></li> */}
+           <li><a href="https://wa.me/554799468662" target="_blank"><WhatsappLogo size={24} weight={"regular"} /></a></li>
            <li><a href="https://www.facebook.com/profile.php?id=100088218352562" target="_blank"><FacebookLogo size={24} weight={"regular"} /></a></li>
          </ul>
       </nav>

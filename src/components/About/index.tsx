@@ -1,7 +1,7 @@
 import style from "./style.module.scss"
 import marca from "../../assets/marcadagua.svg"
 import sobre from "../../assets/sobre.svg"
-import { ShoppingBag } from "phosphor-react"
+import { Check, FileSearch, Handshake, Info, ShoppingBag } from "phosphor-react"
 
 export function About() {
   return (
@@ -11,9 +11,15 @@ export function About() {
         <div className={style.infoContainer}>
           <div></div>
           <img src={sobre} alt="" height={40}/>
-          <p>
-            O Pontal da Barra Concept está localizado na região do Pontal, a área mais bonita da orla de Itapoá, próximo a um dos portos que mais cresce no país. Nosso projeto irá integrar natureza e infraestrutura de forma inédita na região, proporcionando espaços de uso coletivo com conceitos urbanísticos modernos e funcionais para incentivar o senso de comunidade e possibilitar experiências inesquecíveis aos moradores.
-          </p>
+          <div className={style.textAbout}>
+            {/* <h2>Na melhor Praia de Itapoá SC! No início da Baía da Babilônia, lugar de águas claras com ondas calmas e areia branca!</h2> */}
+            <h3> <Info/> Como será?</h3>
+            <p>
+            Frente mar serão até 50 apartamentos de luxo, onde em frente a Avenida teremos as salas comerciais. Ainda está indefinida a construtora, este edifício é apenas ilustrativo, e o padrão será bem melhor
+            </p>
+            <p> Na área depois do asfalto, teremos já concretizado, para lançamento no mês 01/2025 3 torres da RÔGGA, de 12 andares cada, no total de 292 apartamentos</p>
+            <p>Por fim, os Lotes, que iniciarão a partir de R$ 99.000,00, e metragens variadas de 180, 360 e 1.400 é até 1900 m².</p>
+          </div>
         </div>
       </div>
       <div className={style.dividingLine}/>
@@ -24,10 +30,22 @@ export function About() {
           <img src={sobre} alt="" height={40}/>
           <div className={style.textContainer}>
           <h2>
-            <ShoppingBag weight="bold"/> open shopping
+            <Handshake size={80}/> As vantagens do Pontal Concept
           </h2>
           <p>
-          O Pontal da Barra Open Shopping terá duas linhas de prédios, nas quadras 02 e 03, com área entre eles aberta em forma de um maravilhoso e aconchegante boulevard, onde os moradores poderão interagir e aproveitar a melhor estrutura da região com entretenimento, gastronomia, serviços e comércios disponíveis.
+            <Check/> Grande potencial de valorização após a execução dos empreendimentos e apartamentos.
+          </p>
+          <p>
+            <Check/> Toda infraestrutura de paver nas ruas, o que trás mais comodidade, elegância e fluxo lento de veículos dentro do loteamento. Meio fio, calçada e iluminação.
+          </p>
+          <p>
+            <Check/> Estação própria de tratamento de esgoto, inibindo o custo de construção de fossa filtro.
+          </p>
+          <p>
+            <Check/> Lotes 100% secos, altos, sem vegetação, inibindo o custo alto de licença ambiental, aterro e limpeza.
+          </p>
+          <p>
+            <Check/> Parceria com a empresa Inviolável de telemonitoramento, com mais de 40 câmeras de monitoramento de segurança, que poderá ser acompanhado por qualquer morador em tempo real 24hs.
           </p>
           </div>
         </div>
