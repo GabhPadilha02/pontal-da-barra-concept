@@ -17,7 +17,6 @@ export function About() {
             <p>
             Frente mar serão até 50 apartamentos de luxo, onde em frente a Avenida teremos as salas comerciais. Ainda está indefinida a construtora, este edifício é apenas ilustrativo, e o padrão será bem melhor
             </p>
-            <p> Na área depois do asfalto, teremos já concretizado, para lançamento no mês 01/2025 3 torres da RÔGGA, de 12 andares cada, no total de 292 apartamentos</p>
             <p>Por fim, os Lotes, que iniciarão a partir de R$ 99.000,00, e metragens variadas de 180, 360 e 1.400 é até 1900 m².</p>
           </div>
         </div>
