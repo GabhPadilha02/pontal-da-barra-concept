@@ -1,0 +1,21 @@
+.redirectButton{
+  height: 50px;
+  margin: none;
+  background-color: #000;
+  color: var(--white);
+  font-size: 0.875rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  border: none;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 0 8px 8px 0;
+  &:hover{
+    opacity: 0.7;
+  }
+}
