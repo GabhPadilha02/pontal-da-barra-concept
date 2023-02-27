@@ -29,6 +29,6 @@
     padding: 1rem;
   }
   .swiper-pagination-bullet{
-    display:none;
+    /* display:none; */
   }
 }
