@@ -1,21 +1,23 @@
 .redirectButton{
   height: 50px;
   margin: none;
-  background-color: #000;
-  color: var(--white);
-  font-size: 0.875rem;
+  background-color: #d4af37;
+  color: #fff;
+  font-size: 1rem;
   font-family: Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   border: none;
   padding: 0 1rem 0 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 5px;
   cursor: pointer;
   transition: all 0.3s;
   border-radius: 0 8px 8px 0;
+  filter: drop-shadow(0px 0px 3px #fff);
   &:hover{
-    opacity: 0.7;
+    filter: brightness(1.1);
+    filter: drop-shadow(0px 0px 5px #fff);
   }
 }
