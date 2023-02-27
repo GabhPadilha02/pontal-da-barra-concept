@@ -15,9 +15,10 @@ export function About() {
             {/* <h2>Na melhor Praia de Itapoá SC! No início da Baía da Babilônia, lugar de águas claras com ondas calmas e areia branca!</h2> */}
             <h3> <Info/> Como será?</h3>
             <p>
-            Frente mar serão até 50 apartamentos de luxo, onde em frente a Avenida teremos as salas comerciais. Ainda está indefinida a construtora, este edifício é apenas ilustrativo, e o padrão será bem melhor
+            <Check/> Localizado na Baía da Babitonga, local de águas calmas, claras e com ótima faixa de areia.
             </p>
-            <p>Por fim, os Lotes, que iniciarão a partir de R$ 99.000,00, e metragens variadas de 180, 360 e 1.400 é até 1900 m².</p>
+            <p> <Check/> O empreendimento baseia-se em grandes conceitos, trazendo grande potencial de valorização dos terrenos, em formato exclusivo, o qual contemplará cerca de quase 400 lotes entre residenciais, com metragens variadas entre 180,00m² á 1900m² cada (Estes, excelentes para pousadas, hotéis e chácaras).</p>
+            <p> <Check/> Também terá cerca de 250 apartamentos privativos com muitas unidades frente mar, de grandes e renomadas construtoras do mercado imobiliário.</p>
           </div>
         </div>
       </div>
