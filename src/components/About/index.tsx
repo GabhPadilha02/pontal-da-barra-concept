@@ -15,10 +15,10 @@ export function About() {
             {/* <h2>Na melhor Praia de Itapoá SC! No início da Baía da Babilônia, lugar de águas claras com ondas calmas e areia branca!</h2> */}
             <h3> <Info/> Como será?</h3>
             <p>
-            <Check/> Localizado na Baía da Babitonga, local de águas calmas, claras e com ótima faixa de areia.
+             Localizado na Baía da Babitonga, local de águas calmas, claras e com ótima faixa de areia.
             </p>
-            <p> <Check/> O empreendimento baseia-se em grandes conceitos, trazendo grande potencial de valorização dos terrenos, em formato exclusivo, o qual contemplará cerca de quase 400 lotes entre residenciais, com metragens variadas entre 180,00m² á 1900m² cada (Estes, excelentes para pousadas, hotéis e chácaras).</p>
-            <p> <Check/> Também terá cerca de 250 apartamentos privativos com muitas unidades frente mar, de grandes e renomadas construtoras do mercado imobiliário.</p>
+            <p>  O empreendimento baseia-se em grandes conceitos, trazendo grande potencial de valorização dos terrenos, em formato exclusivo, o qual contemplará cerca de quase 400 lotes entre residenciais, com metragens variadas entre 180,00m² á 1900m² cada (Estes, excelentes para pousadas, hotéis e chácaras).</p>
+            <p>  Também terá cerca de 250 apartamentos privativos com muitas unidades frente mar, de grandes e renomadas construtoras do mercado imobiliário.</p>
           </div>
         </div>
       </div>
