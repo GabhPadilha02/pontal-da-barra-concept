@@ -75,9 +75,9 @@ export function MainGallery() {
             <SwiperSlide className={style.swiperSlide}>
               <img src={slider10} alt="" />
             </SwiperSlide>
-            <SwiperSlide className={style.swiperSlide}>
+            {/* <SwiperSlide className={style.swiperSlide}>
               <img src={slider11} alt="" />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className={style.swiperSlide}>
               <img src={slider12} alt="" />
             </SwiperSlide>
@@ -90,9 +90,9 @@ export function MainGallery() {
             <SwiperSlide className={style.swiperSlide}>
               <img src={slider15} alt="" />
             </SwiperSlide>
-            <SwiperSlide className={style.swiperSlide}>
+            {/* <SwiperSlide className={style.swiperSlide}>
               <img src={slider16} alt="" />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className={style.swiperSlide}>
               <img src={slider17} alt="" />
             </SwiperSlide>
