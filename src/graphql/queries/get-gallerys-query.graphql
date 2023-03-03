@@ -1,5 +1,5 @@
 query GetGallerys {
-  galeriasMensais {
+  galeriasMensais(orderBy: publishedAt_DESC) {
     mesTitulo
     fotos {
       id
